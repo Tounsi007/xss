@@ -1,11 +1,22 @@
 swagger: '2.0'
 info:
-  version: "0.0.1"
-  title: Example Title
-  description: <img src=x onerror="alert('XSS')">
+  title: Classic API Resource Documentation
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+
+  version: production
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
 paths:
-  /:
+  /accounts:
     get:
       responses:
-        200:
-          description: Successful response
+        '200':
+          description: No response was specified
