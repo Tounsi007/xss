@@ -1,8 +1,8 @@
 {
-   "url":"https://raw.githubusercontent.com/0x1bug/xss/main/xss.yaml",
+   "url":"https://raw.githubusercontent.com/Tounsi007/xss/main/xss.yaml",
    "urls":[
       {
-         "url":"https://raw.githubusercontent.com/0x1bug/xss/main/xss.yaml",
+         "url":"https://raw.githubusercontent.com/Tounsi007/xss/main/xss.yaml",
          "name":"Foo"
       }
    ]
